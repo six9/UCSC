@@ -3,7 +3,7 @@
 int main(){
     int c;
     while((c=getchar())!= EOF){
-        if(c ==' '){
+        if(c ==' ' || c=='\t'){
             break;
         }else
         {
